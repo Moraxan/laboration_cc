@@ -13,3 +13,11 @@
 /home/calletrumma/source/laboration_cc/obj/Debug/net7.0/laboration_cc.pdb
 /home/calletrumma/source/laboration_cc/obj/Debug/net7.0/laboration_cc.genruntimeconfig.cache
 /home/calletrumma/source/laboration_cc/obj/Debug/net7.0/ref/laboration_cc.dll
+/workspaces/laboration_cc/obj/Debug/net7.0/laboration_cc.csproj.AssemblyReference.cache
+/workspaces/laboration_cc/obj/Debug/net7.0/laboration_cc.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/laboration_cc/obj/Debug/net7.0/laboration_cc.AssemblyInfoInputs.cache
+/workspaces/laboration_cc/obj/Debug/net7.0/laboration_cc.AssemblyInfo.cs
+/workspaces/laboration_cc/obj/Debug/net7.0/laboration_cc.csproj.CoreCompileInputs.cache
+/workspaces/laboration_cc/obj/Debug/net7.0/laboration_cc.dll
+/workspaces/laboration_cc/obj/Debug/net7.0/refint/laboration_cc.dll
+/workspaces/laboration_cc/obj/Debug/net7.0/laboration_cc.pdb

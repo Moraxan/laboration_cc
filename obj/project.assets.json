@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/calletrumma/.nuget/packages/": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/calletrumma/source/laboration_cc/laboration_cc.csproj",
+      "projectUniqueName": "/workspaces/laboration_cc/laboration_cc.csproj",
       "projectName": "laboration_cc",
-      "projectPath": "/home/calletrumma/source/laboration_cc/laboration_cc.csproj",
-      "packagesPath": "/home/calletrumma/.nuget/packages/",
-      "outputPath": "/home/calletrumma/source/laboration_cc/obj/",
+      "projectPath": "/workspaces/laboration_cc/laboration_cc.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/laboration_cc/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/calletrumma/.nuget/NuGet/NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/calletrumma/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.302/sdk/7.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }

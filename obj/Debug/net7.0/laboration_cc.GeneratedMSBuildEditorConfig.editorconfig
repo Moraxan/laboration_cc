@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = laboration_cc
-build_property.ProjectDir = /home/calletrumma/source/laboration_cc/
+build_property.ProjectDir = /workspaces/laboration_cc/

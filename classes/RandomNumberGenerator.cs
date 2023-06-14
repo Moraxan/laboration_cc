@@ -1,27 +1,19 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace MooGame
+public class RandomNumberGenerator
 {
-    public class RandomNumberGenerator
-    {
-        public string makeGoal()
+	public string makeGoal()
+	{
+		Random randomNumberGenerator = new Random();
+		string goal = "";
+		for (int i = 0; i < 4; i++)
 		{
-			Random randomNumberGenerator = new Random();
-			string goal = "";
-			for (int i = 0; i < 4; i++)
+			int randomNumber = randomNumberGenerator.Next(10);
+			string randomDigit = "" + randomNumber;
 			{
-				int randomNumber = randomNumberGenerator.Next(10);
-				string randomDigit = "" + randomNumber;
-				{
-					randomNumber = randomNumberGenerator.Next(10);
-					randomDigit = "" + randomNumber;
-				}
-				goal = goal + randomDigit;
+				randomNumber = randomNumberGenerator.Next(10);
+				randomDigit = "" + randomNumber;
 			}
-			return goal;
+			goal = goal + randomDigit;
 		}
-    }
+		return goal;
+	}
 }

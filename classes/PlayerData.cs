@@ -1,10 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace MooGame
-{
     class PlayerData
 	{
 		public string Name { get; private set; }
@@ -42,4 +35,3 @@ namespace MooGame
 			return Name.GetHashCode();
 		}
 	}
-}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q44dus44A2zqrOItMg4w6u7ajxzhF2iTCgYrrRsp2BRIWnk2uJxmJj97ZP+syVvnt+n4IZAl4zg8/iLRNJChIQ==",
+  "dgSpecHash": "rPHmrBTSRZ0Qp3ycshouSBhJnDI/ujQVIcz/HLKuU5QX68YuV1vhqU3CutzCiRrNE/Fvccv9nB9OS8h/dRyi2g==",
   "success": true,
-  "projectFilePath": "/home/calletrumma/source/laboration_cc/laboration_cc.csproj",
+  "projectFilePath": "/workspaces/laboration_cc/laboration_cc.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
