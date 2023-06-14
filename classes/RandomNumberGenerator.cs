@@ -1,5 +1,6 @@
-public class RandomNumberGenerator
-{
+
+    public class RandomNumberGenerator
+    {
 	public string makeGoal()
 	{
 		Random randomNumberGenerator = new Random();
