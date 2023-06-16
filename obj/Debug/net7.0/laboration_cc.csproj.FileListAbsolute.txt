@@ -1,0 +1,15 @@
+C:\Users\calle\source\repos\laboration_cc\obj\Debug\net7.0\laboration_cc.csproj.AssemblyReference.cache
+C:\Users\calle\source\repos\laboration_cc\obj\Debug\net7.0\laboration_cc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\calle\source\repos\laboration_cc\obj\Debug\net7.0\laboration_cc.AssemblyInfoInputs.cache
+C:\Users\calle\source\repos\laboration_cc\obj\Debug\net7.0\laboration_cc.AssemblyInfo.cs
+C:\Users\calle\source\repos\laboration_cc\obj\Debug\net7.0\laboration_cc.csproj.CoreCompileInputs.cache
+C:\Users\calle\source\repos\laboration_cc\bin\Debug\net7.0\laboration_cc.exe
+C:\Users\calle\source\repos\laboration_cc\bin\Debug\net7.0\laboration_cc.deps.json
+C:\Users\calle\source\repos\laboration_cc\bin\Debug\net7.0\laboration_cc.runtimeconfig.json
+C:\Users\calle\source\repos\laboration_cc\bin\Debug\net7.0\laboration_cc.dll
+C:\Users\calle\source\repos\laboration_cc\bin\Debug\net7.0\laboration_cc.pdb
+C:\Users\calle\source\repos\laboration_cc\obj\Debug\net7.0\laboration_cc.dll
+C:\Users\calle\source\repos\laboration_cc\obj\Debug\net7.0\refint\laboration_cc.dll
+C:\Users\calle\source\repos\laboration_cc\obj\Debug\net7.0\laboration_cc.pdb
+C:\Users\calle\source\repos\laboration_cc\obj\Debug\net7.0\laboration_cc.genruntimeconfig.cache
+C:\Users\calle\source\repos\laboration_cc\obj\Debug\net7.0\ref\laboration_cc.dll

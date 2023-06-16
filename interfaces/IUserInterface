@@ -1,5 +1,0 @@
-public interface IUserInterface
-{
-    string GetUserInput(string prompt);
-    void DisplayMessage(string message);
-}
