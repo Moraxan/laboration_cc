@@ -1,6 +1,6 @@
 public class CheckBullsOrCows
 {
-	public string checkBullsOrCows(string goal, string guess)
+	public string checkBullsOrCows (string goal, string guess)
 	{
 		int cows = 0, bulls = 0;
 		guess += "    ";     // if player entered less than 4 chars

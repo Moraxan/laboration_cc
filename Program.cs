@@ -33,15 +33,15 @@ namespace MooGame
 				string? guess = Console.ReadLine();
 				CheckBullsOrCows checkBullsOrCows = new CheckBullsOrCows();
 				int numberOfGuesses = 1;
-				string bbcc = checkBullsOrCows.checkBullsOrCows(goal, guess);
-				Console.WriteLine(bbcc + "\n");
-				while (bbcc != "BBBB,")
+				string result = checkBullsOrCows.checkBullsOrCows(goal, guess);
+				Console.WriteLine(result + "\n");
+				while (result != "BBBB,")
 				{
 					numberOfGuesses++;
 					guess = Console.ReadLine();
 					Console.WriteLine(guess + "\n");
-					bbcc = checkBullsOrCows.checkBullsOrCows(goal, guess);
-					Console.WriteLine(bbcc + "\n");
+					result = checkBullsOrCows.checkBullsOrCows(goal, guess);
+					Console.WriteLine(result + "\n");
 				}
 				StreamWriter output = new StreamWriter("result.txt", append: true);
 				output.WriteLine(name + "#&#" + numberOfGuesses);
