@@ -18,11 +18,11 @@ public class TopList
             string[] nameAndScore = line.Split(new string[] { "#&#" }, StringSplitOptions.None);
             string name = nameAndScore[0];
             int guesses = Convert.ToInt32(nameAndScore[1]);
-            PlayerData pd = new PlayerData(name, guesses);
-            int pos = results.IndexOf(pd);
+            PlayerData playerData = new PlayerData(name, guesses);
+            int pos = results.IndexOf(playerData);
             if (pos < 0)
             {
-                results.Add(pd);
+                results.Add(playerData);
             }
             else
             {

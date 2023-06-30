@@ -1,7 +1,7 @@
 
     public class RandomNumberGenerator
     {
-	public string makeGoal()
+	public string MakeGoal()
 	{
 		Random randomNumberGenerator = new Random();
 		string goal = "";

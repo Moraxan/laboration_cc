@@ -21,22 +21,23 @@
 			{
 				
 				RandomNumberGenerator randomNumberGenerator = new RandomNumberGenerator();
-				string goal = randomNumberGenerator.makeGoal();
+				string goal = randomNumberGenerator.MakeGoal();
 
 				Console.WriteLine("New game:\n");
 				//comment out or remove next line to play real games!
 				Console.WriteLine("For practice, number is: " + goal + "\n");
 				string? guess = Console.ReadLine();
-				CheckBullsOrCows checkBullsOrCows = new CheckBullsOrCows();
+				//Change checkresult to playerResult
+				Result checkResult = new Result();
 				int numberOfGuesses = 1;
-				string result = checkBullsOrCows.checkBullsOrCows(goal, guess);
+				string result = checkResult.CheckResult(goal, guess);
 				Console.WriteLine(result + "\n");
 				while (result != "BBBB,")
 				{
 					numberOfGuesses++;
 					guess = Console.ReadLine();
 					Console.WriteLine(guess + "\n");
-					result = checkBullsOrCows.checkBullsOrCows(goal, guess);
+					result = checkResult.CheckResult(goal, guess);
 					Console.WriteLine(result + "\n");
 				}
 				StreamWriter output = new StreamWriter("result.txt", append: true);
