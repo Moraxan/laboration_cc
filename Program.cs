@@ -2,41 +2,41 @@
 {
     class MainClass
     {
-        private readonly IUserInterface _userInterface;
+        private readonly IUserInterface userInterface;
 
 		//Dependency injection of interface
         public MainClass(IUserInterface userInterface)
         {
-            _userInterface = userInterface;
+            this.userInterface = userInterface;
         }
 
         public void Run()
         {
             bool playOn = true;
-            _userInterface.DisplayMessage("Enter your user name:\n");
-            string? name = _userInterface.GetUserInput("");
+            userInterface.DisplayMessage("Enter your user name:\n");
+            string? name = userInterface.GetUserInput("");
 
             while (playOn)
             {
                 RandomNumberGenerator randomNumberGenerator = new RandomNumberGenerator();
                 string goal = randomNumberGenerator.MakeGoal();
 
-                _userInterface.DisplayMessage("New game:\n");
-                _userInterface.DisplayMessage("For practice, number is: " + goal + "\n");
+                userInterface.DisplayMessage("New game:\n");
+                userInterface.DisplayMessage("For practice, number is: " + goal + "\n");
 
-                string? guess = _userInterface.GetUserInput("Enter your guess:\n");
-                Result checkResult = new Result();
+                string? guess = userInterface.GetUserInput("Enter your guess:\n");
+                Result checkResult = new();
                 int numberOfGuesses = 1;
                 string result = checkResult.CheckResult(goal, guess);
-                _userInterface.DisplayMessage(result + "\n");
+                userInterface.DisplayMessage(result + "\n");
 
                 while (result != "BBBB,")
                     {
                         numberOfGuesses++;
-                        guess = _userInterface.GetUserInput("Enter your guess:\n");
-                        _userInterface.DisplayMessage(guess + "\n");
+                        guess = userInterface.GetUserInput("Enter your guess:\n");
+                        userInterface.DisplayMessage(guess + "\n");
                         result = checkResult.CheckResult(goal, guess); // Update the result here
-                        _userInterface.DisplayMessage(result + "\n");
+                        userInterface.DisplayMessage(result + "\n");
                     }
 
                 using (StreamWriter output = new StreamWriter("result.txt", append: true))
@@ -47,7 +47,7 @@
                 TopList topList = new TopList();
                 topList.ShowTopList();
 
-                string answer = _userInterface.GetUserInput("Correct, it took " + numberOfGuesses + " guesses\nContinue? (yes/no)\n");
+                string? answer = userInterface.GetUserInput("Correct, it took " + numberOfGuesses + " guesses\nContinue? (yes/no)\n");
                 if (answer.ToLower() != "yes")
                 {
                     playOn = false;

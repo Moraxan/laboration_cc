@@ -12,7 +12,7 @@ public class TopList
         StreamReader input = new StreamReader("result.txt");
 
         //Fix the input class. Needs a try catch. Why is there one input for name and score?
-        string line;
+        string? line;
         while ((line = input.ReadLine()) != null)
         {
             string[] nameAndScore = line.Split(new string[] { "#&#" }, StringSplitOptions.None);
