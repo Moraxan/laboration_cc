@@ -7,7 +7,7 @@ public class TopList
         results = new List<PlayerData>();
     }
 
-    public void Show()
+    public void ShowTopList()
     {
         StreamReader input = new StreamReader("result.txt");
 
