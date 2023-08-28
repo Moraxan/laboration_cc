@@ -45,7 +45,7 @@
                 }
 
                 TopList topList = new TopList();
-                topList.Show();
+                topList.ShowTopList();
 
                 string answer = _userInterface.GetUserInput("Correct, it took " + numberOfGuesses + " guesses\nContinue? (yes/no)\n");
                 if (answer.ToLower() != "yes")
