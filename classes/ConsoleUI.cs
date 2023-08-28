@@ -4,7 +4,7 @@ namespace MooGame
 
 public class ConsoleUI : IUserInterface
 {
-    public string GetUserInput(string prompt)
+    public string? GetUserInput(string prompt)
     {
         Console.WriteLine(prompt);
         return Console.ReadLine();
