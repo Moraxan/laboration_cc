@@ -1,5 +1,3 @@
-namespace MooGame
-{
     public class ConsoleUI : IUserInterface
     {
         public string? GetUserInput(string prompt)
@@ -33,4 +31,3 @@ namespace MooGame
             Console.WriteLine(message);
         }
     }
-}
