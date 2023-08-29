@@ -22,16 +22,4 @@
 		{
 			return (double)totalGuess / NumberOfGames;
 		}
-
-		
-	    public override bool Equals(Object p)
-		{
-			return Name.Equals(((PlayerData)p).Name);
-		}
-
-		
-	    public override int GetHashCode()
-        {
-			return Name.GetHashCode();
-		}
 	}
