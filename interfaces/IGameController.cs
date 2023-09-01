@@ -1,4 +1,7 @@
-public interface IGameController
+namespace laboration_cc.interfaces
 {
-    void RunGame();
+	public interface IGameController
+	{
+		void RunGame();
+	}
 }

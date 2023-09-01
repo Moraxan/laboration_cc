@@ -4,7 +4,7 @@
         {
             IUserInterface consoleInterface = new ConsoleUI();
             IGameLogic gameLogic = new GameLogic(consoleInterface); 
-            GameController gameController = new GameController(consoleInterface, gameLogic);
+            IGameController gameController = new GameController(consoleInterface, gameLogic);
             gameController.RunGame();
         }
     }

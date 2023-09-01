@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/calletrumma/source/laboration_cc/laboration_cc.csproj": {}
+    "C:\\Users\\calle\\source\\repos\\Moraxan\\laboration_cc\\laboration_cc.csproj": {}
   },
   "projects": {
-    "/home/calletrumma/source/laboration_cc/laboration_cc.csproj": {
+    "C:\\Users\\calle\\source\\repos\\Moraxan\\laboration_cc\\laboration_cc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/calletrumma/source/laboration_cc/laboration_cc.csproj",
+        "projectUniqueName": "C:\\Users\\calle\\source\\repos\\Moraxan\\laboration_cc\\laboration_cc.csproj",
         "projectName": "laboration_cc",
-        "projectPath": "/home/calletrumma/source/laboration_cc/laboration_cc.csproj",
-        "packagesPath": "/home/calletrumma/.nuget/packages/",
-        "outputPath": "/home/calletrumma/source/laboration_cc/obj/",
+        "projectPath": "C:\\Users\\calle\\source\\repos\\Moraxan\\laboration_cc\\laboration_cc.csproj",
+        "packagesPath": "C:\\Users\\calle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\calle\\source\\repos\\Moraxan\\laboration_cc\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/calletrumma/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\calle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/calletrumma/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

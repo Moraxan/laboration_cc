@@ -1,38 +1,41 @@
- public class GameLogic : IGameLogic
+namespace laboration_cc.classes
 {
-    private readonly IUserInterface userInterface;
+	public class GameLogic : IGameLogic
+	{
+		private readonly IUserInterface userInterface;
 
-    public GameLogic(IUserInterface userInterface)
-    {
-        this.userInterface = userInterface;
-    }
+		public GameLogic(IUserInterface userInterface)
+		{
+			this.userInterface = userInterface;
+		}
 
-        public int PlayGame(string playerName)
-        {
-            RandomNumberGenerator randomNumberGenerator = new RandomNumberGenerator();
-            string goal = randomNumberGenerator.MakeGoal();
+		public int PlayGame(string playerName)
+		{
+			RandomNumberGenerator randomNumberGenerator = new();
+			string goal = randomNumberGenerator.MakeGoal();
 
-            //This could be one line. Doesn't hurt readability to have like this though.    
-            userInterface.DisplayMessage("New game:\n");
-            userInterface.DisplayMessage("For practice, number is: " + goal + "\n");
+			//This could be one line. Doesn't hurt readability to have like this though.    
+			userInterface.DisplayMessage("New game:\n");
+			userInterface.DisplayMessage("For practice, number is: " + goal + "\n");
 
-            int numberOfGuesses = 0;
-            Result checkResult = new Result();
+			int numberOfGuesses = 0;
+			Result checkResult = new();
 
-            while (true)
-            {
-                numberOfGuesses++;
-                string? guess = userInterface.GetUserInput("Enter your guess:\n");
+			while (true)
+			{
+				numberOfGuesses++;
+				string? guess = userInterface.GetUserInput("Enter your guess:\n");
 
-                string result = checkResult.CheckResult(goal, guess);
-                userInterface.DisplayMessage(result + "\n");
+				string result = Result.CheckResult(goal, guess);
+				userInterface.DisplayMessage(result + "\n");
 
-                if (result == "BBBB,")
-                {
-                    break;
-                }
-            }
+				if (result == "BBBB,")
+				{
+					break;
+				}
+			}
 
-            return numberOfGuesses;
-        }
-    }
+			return numberOfGuesses;
+		}
+	}
+}

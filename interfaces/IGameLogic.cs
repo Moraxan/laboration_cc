@@ -1,4 +1,7 @@
-public interface IGameLogic
+namespace laboration_cc.interfaces
 {
-    int PlayGame(string playerName);
+	public interface IGameLogic
+	{
+		int PlayGame(string playerName);
+	}
 }
