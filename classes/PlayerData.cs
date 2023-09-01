@@ -1,9 +1,13 @@
-    class PlayerData
+namespace laboration_cc.classes
+{
+
+
+	class PlayerData
 	{
 		public string Name { get; private set; }
-        public int NumberOfGames { get; private set; }
+		public int NumberOfGames { get; private set; }
 		int totalGuess;
-		
+
 
 		public PlayerData(string name, int guesses)
 		{
@@ -23,3 +27,4 @@
 			return (double)totalGuess / NumberOfGames;
 		}
 	}
+}

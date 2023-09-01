@@ -11,7 +11,7 @@ namespace laboration_cc.classes
 
 		public void ShowTopList()
 		{
-			StreamReader input = new StreamReader("result.txt");
+			StreamReader input = new("result.txt");
 
 			//Why is there one input for name and score?
 			string? line;
@@ -20,7 +20,7 @@ namespace laboration_cc.classes
 				string[] nameAndScore = line.Split(new string[] { "#&#" }, StringSplitOptions.None);
 				string name = nameAndScore[0];
 				int guesses = Convert.ToInt32(nameAndScore[1]);
-				PlayerData playerData = new PlayerData(name, guesses);
+				PlayerData playerData = new(name, guesses);
 				int pos = results.IndexOf(playerData);
 				if (pos < 0)
 				{

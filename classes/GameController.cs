@@ -2,8 +2,8 @@ namespace laboration_cc.classes
 {
 	public class GameController : IGameController
 	{
-		private readonly IUserInterface userInterface;
-		private readonly IGameLogic gameLogic;
+		private readonly IUserInterface? userInterface;
+		private readonly IGameLogic? gameLogic;
 
 		public GameController(IUserInterface userInterface, IGameLogic gameLogic)
 		{
@@ -53,7 +53,7 @@ namespace laboration_cc.classes
 
 		private bool ShouldContinue()
 		{
-			string answer = userInterface.GetUserInput($"Continue? (yes/no)\n");
+			string? answer = userInterface.GetUserInput($"Continue? (yes/no)\n");
 			return answer.ToLower() == "yes";
 		}
 
