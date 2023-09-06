@@ -1,6 +1,6 @@
 namespace laboration_cc.classes
 {
-	public class RandomNumberGenerator : IRandomNumberGenerator
+	public class RandomNumberGenerator
 	{
 		private readonly Random randomNumberGenerator = new();
 
